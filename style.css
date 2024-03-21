@@ -1,0 +1,227 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.whatsappcontainer{
+    width: 22%;
+    height: 510px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: url(./background.jpeg) no-repeat ;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 46px;
+    /* border: 2px solid black; */
+    background-color: #128c7e;
+    margin-top: 5px;
+
+    
+    
+}
+.nav1{
+    width: 100%;
+    height: 46px;
+    /* border: 2px solid black; */
+    /* border-radius: 30px; */
+}
+.profile {
+    width: 33px;
+    height: 36px;
+    border: 3px solid black;
+    margin-left: 30px;
+    border-radius: 50px;
+    margin-top: -36px;
+    background-color: white;
+    background-image: url(./dp.jpeg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+   
+    
+    
+   
+}
+i{
+   
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+p{
+    margin-top: 15px;
+    margin-left: 43px;
+    color: white;
+}
+
+.pi{
+    display: flex;
+    justify-content: end;
+}
+.ico{
+    color: white
+   
+}
+.iconscont{
+    margin-top: -43px;
+    margin-left: 190px;
+}
+
+#time{
+   
+   padding: 10px;
+    
+}
+
+.ibp{
+    color: black;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+#block{
+    border: 3px solid black;
+    height: 20px;
+    margin-left: 3px;
+    background-color: black;
+    border-radius: 13px;
+    display: inline;
+}
+.wifis{
+    color:black;
+    font-size: 13px;
+    margin-top: -30px;
+}
+.signals{
+    color: black;
+    font-size: 13px;
+    margin-top: -30px;
+}
+.battery{
+    color: black;
+    margin-top: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 380px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+    
+}
+
+/* Hide scrollbar */
+.content {
+    scrollbar-width: none;  
+}
+
+
+ 
+.footer {
+    width: 86%;
+    height: 33px;
+    border-radius: 18px;
+    border: 2px solid black;
+    background-color: white;
+    border: none;
+   
+  
+   
+}
+img{
+    height: 56px;
+    font-size: 2px;
+    margin-top: -40px;
+    margin-left: 233px;
+}
+.smile{
+   color: grey;
+    padding: 8px;
+    margin-top: -1px;
+}
+.att{
+   color: grey;
+    padding: 8px;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+.rupee{
+   color: grey;
+    padding: 6px;
+    margin-top: -1px;
+    margin-left: -8px;
+    
+     
+}
+.camera{
+   color: grey;
+    padding: 8px;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+.input{
+    width: 36%;
+    padding: 8px;
+    border: none;
+    
+   
+}
+
+.p{
+    color: black;
+    font-size: small;
+    /* border: 2px solid black; */
+    display: inline;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    position: sticky;
+    top: 2px;
+    margin-top: 10px;
+}
+.p2{
+    color: black;
+    font-size: small;
+    /* border: 2px solid black; */
+    display: inline;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    position: sticky;
+    top: 2px;
+    margin-top: 10px;
+}
+.pl{
+    color: black;
+    margin-left: 10px;
+    background-color: white;
+    padding: 6px;
+    width: fit-content;
+}
+
+.pr {
+    color: black;
+    text-align: right;  
+    direction: ltr;
+    margin-left: 130px;
+    background-color: #dcf8c6;
+    padding: 6px;
+    border-radius: 8px 0px 8px 8px;
+   
+}
+ 
+
+/* Hide border when input field is focused */
+input:focus {
+    outline: none; /* Hide default focus outline */
+    border-color: transparent; /* Hide border */
+}
