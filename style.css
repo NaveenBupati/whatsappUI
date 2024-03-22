@@ -34,6 +34,7 @@
     height: 600px;
     border: 5px solid black;
     border-radius: 30px;
+    
 }
 
  
@@ -64,7 +65,16 @@ p{
     margin-left: 43px;
     color: white;
 }
-
+ 
+.nam{
+    margin-top: -0.3px;
+}
+.name{
+    margin-top: -1px;
+    font-size: 13px;
+    display: inline;
+    color:#ece5dd;
+}
 .pi{
     display: flex;
     justify-content: end;
@@ -75,7 +85,7 @@ p{
 }
 .iconscont{
     margin-top: -43px;
-    margin-left: 219px;
+    margin-left: 230px;
 }
 
 #time{
@@ -92,7 +102,7 @@ p{
 #block{
     border: 3px solid black;
     height: 20px;
-    margin-left: 3px;
+    margin-left: 13px;
     background-color: black;
     border-radius: 13px;
     display: inline;
@@ -235,7 +245,7 @@ input:focus {
     border-color: transparent; /* Hide border */
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     .whatsappcontainer {
         width: 100%;
         height: 500vh;
@@ -244,3 +254,8 @@ input:focus {
 
     /* Add more responsive styles here */
 }
+.pri{
+    color: #34b7f1;
+    font-weight: bold;
+}
+ 
